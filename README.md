@@ -1,4 +1,4 @@
-**Conduit** is a social blogging application (a Medium.com-style clone) built with Angular. It demonstrates a realistic single-page app with user authentication, full CRUD for articles and comments, tags, favorites, following other users, and paginated article feeds.
+**Conduit** is a social blogging application (a Medium.com-style clone) built with Angular 21. It demonstrates a realistic single-page app with user authentication, full CRUD for articles and comments, tags, favorites, following other users, and paginated article feeds.
 
 ## Practice project for Bondar Academy
 
@@ -8,7 +8,7 @@ Explore the available training programs at **https://www.bondaracademy.com/**.
 
 ## Running the app
 
-Requires Node.js `^18.13.0 || ^20.9.0`.
+Requires Node.js `^20.19.0 || ^22.12.0 || >=24.0.0`.
 
 1. Install dependencies:
 
