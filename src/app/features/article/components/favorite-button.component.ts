@@ -22,7 +22,7 @@ import { takeUntilDestroyed } from "@angular/core/rxjs-interop";
       [ngClass]="{
         disabled: isSubmitting,
         'btn-outline-primary': !article.favorited,
-        'btn-primary': article.favorited
+        'btn-primary': article.favorited,
       }"
       (click)="toggleFavorite()"
     >
@@ -30,7 +30,6 @@ import { takeUntilDestroyed } from "@angular/core/rxjs-interop";
     </button>
   `,
   imports: [NgClass],
-  standalone: true,
 })
 export class FavoriteButtonComponent {
   destroyRef = inject(DestroyRef);

@@ -23,7 +23,7 @@ import { takeUntilDestroyed } from "@angular/core/rxjs-interop";
       [ngClass]="{
         disabled: isSubmitting,
         'btn-outline-secondary': !profile.following,
-        'btn-secondary': profile.following
+        'btn-secondary': profile.following,
       }"
       (click)="toggleFollowing()"
     >
@@ -33,7 +33,6 @@ import { takeUntilDestroyed } from "@angular/core/rxjs-interop";
     </button>
   `,
   imports: [NgClass],
-  standalone: true,
 })
 export class FollowButtonComponent {
   @Input() profile!: Profile;
